@@ -13,31 +13,40 @@ let categoryTopics = {
 
 // 2. Get a random topic from a category
 informativeChoice = () => {
-    document.getElementById( 'informative-button' ).addEventListener( 'click', function () {
+    $( '#informative-button' ).on( 'click', function () {
         let informativeChoiceTopic = categoryTopics.informative[Math.floor( Math.random() * categoryTopics.informative.length )]
         console.log( informativeChoiceTopic )
-        document.getElementById( 'chosen-topic' ).innerHTML = `Your prompt is: "${informativeChoiceTopic}"`
+        $( '#chosen-topic' ).html( `Your prompt is: "${informativeChoiceTopic}"` )
     } )
 }
 informativeChoice();
 
 opinionChoice = () => {
-    document.getElementById( 'opinion-button' ).addEventListener( 'click', function () {
+    $( '#opinion-button' ).on( 'click', function () {
         let opinionChoiceTopic = categoryTopics.opinion[Math.floor( Math.random() * categoryTopics.opinion.length )]
         console.log( opinionChoiceTopic )
-        document.getElementById( 'chosen-topic' ).innerHTML = `Your prompt is: "${opinionChoiceTopic}"`
+        $( '#chosen-topic' ).html( `Your prompt is: "${opinionChoiceTopic}"` )
     } )
 }
 opinionChoice();
 
 narrativeChoice = () => {
-    document.getElementById( 'narrative-button' ).addEventListener( 'click', function () {
+    $( '#narrative-button' ).on( 'click', function () {
         let narrativeChoiceTopic = categoryTopics.narrative[Math.floor( Math.random() * categoryTopics.narrative.length )]
         console.log( narrativeChoiceTopic )
-        document.getElementById( 'chosen-topic' ).innerHTML = `Your prompt is: "${narrativeChoiceTopic}"`
+        $( '#chosen-topic' ).html( `Your prompt is: "${narrativeChoiceTopic}"` )
     } )
 }
 narrativeChoice();
 
 
 // 3. Make lists more specific with text structure
+
+
+// TO DO
+
+    // 1. Method for getting a topic instead of 3 different functions
+
+    // 2. Design
+
+    // 3. Add more topics
