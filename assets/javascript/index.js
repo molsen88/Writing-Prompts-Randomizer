@@ -11,6 +11,10 @@ let categoryTopics = {
     }
 }
 
+$( document ).ready( function () {
+    $( '.parallax' ).parallax();
+} );
+
 
 informativeChoice = () => {
     let informativeChoiceTopic = categoryTopics.informative[Math.floor( Math.random() * categoryTopics.informative.length )]
