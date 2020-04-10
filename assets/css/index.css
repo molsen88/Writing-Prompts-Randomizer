@@ -1,27 +1,35 @@
 body{
-    background-color: #8AD0E6; 
+    /* background-color: #8AD0E6;  */
     font-family:  'Nunito', sans-serif;
     
 }
 
 .navbar{
    background-color: #24305E;
+  position: fixed;
 }
-#thinker{
-    background-image: url("../images/opinion\ writing.jpeg");
-    height: 500px; 
+
+#parallax-white-section{
+    height: 300px;
+
+}
+#books-lighting{
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover; 
 }
 
-#books{
-    
-    background-image: url("../images/books\ image.jpeg");
-    height: 500px; 
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover; 
+#cs-lewis-quote{
+    font-size: 90px;
+    margin-top: 10px;
+    color:#F76C6C;
+}
+#lewis-attribute{
+    font-size: 75px;
+margin-left: 415px;
+margin-top: 20px;
+color:#24305E;
+
 }
 
 #info-writing-section{
@@ -38,9 +46,13 @@ body{
 }
 
 .card{
-color:#F76C6C;
+color:black;
+font-size: 16px;
 }
 
+/* p{
+    margin-bottom: 20px;
+} */
 
 
 .card-titles{
