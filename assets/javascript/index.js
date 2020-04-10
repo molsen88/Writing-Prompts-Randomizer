@@ -10,9 +10,6 @@ let categoryTopics = {
 
     }
 }
-// var instance = M.Modal.getInstance( elem );
-// instance.close();
-
 
 
 informativeChoice = () => {
@@ -32,6 +29,16 @@ opinionChoice = () => {
 }
 $( document ).ready( function () {
     opinionChoice();
+    $( 'modal' ).modal();
+} );
+
+narrativeChoice = () => {
+    let narrativeChoiceTopic = categoryTopics.narrative[Math.floor( Math.random() * categoryTopics.narrative.length )]
+    console.log( narrativeChoiceTopic )
+    $( '#narrative-topic' ).html( `Your prompt is: "${narrativeChoiceTopic}"` )
+}
+$( document ).ready( function () {
+    narrativeChoice();
     $( 'modal' ).modal();
 } );
 

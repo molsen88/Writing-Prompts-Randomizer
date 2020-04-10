@@ -1,0 +1,24 @@
+body{
+    background-color: #8AD0E6; 
+    font-family:  'Nunito', sans-serif;;
+}
+
+.navbar{
+   background-color: #24305E;
+}
+
+.card{
+color:#F76C6C;
+}
+
+
+
+.card-titles{
+    font-size: 48px;
+    /* margin-bottom: 80px; */
+    color: white;
+}
+
+#button{
+    background-color:#F76C6C;
+}
