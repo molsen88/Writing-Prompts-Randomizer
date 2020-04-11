@@ -46,57 +46,17 @@ $( document ).ready( function () {
     $( 'modal' ).modal();
 } );
 
+scrollDownPage = () => {
+    $( '#scroll-down' ).on( 'click', function () {
+        scrollBy( {
+            top: 1000,
+            left: 0,
+            behavior: 'smooth'
+        } )
+    } )
+}
+scrollDownPage();
 
-
-
-// $( document ).ready( function () {
-//     opinionChoice = () => {
-//         $( '#opinion-button' ).on( 'click', function () {
-//             let opinionChoiceTopic = categoryTopics.opinion[Math.floor( Math.random() * categoryTopics.opinion.length )]
-//             console.log( opinionChoiceTopic )
-//             $( '#chosen-topic' ).html( `Your prompt is: "${opinionChoiceTopic}"` )
-//         } )
-//     }
-//     $( '.modal' ).modal();
-// } )
-
-// 2. Get a random topic from a category
-// informativeChoice = () => {
-//     $( '#modal1' ).on( 'click', function () {
-//         let informativeChoiceTopic = categoryTopics.informative[Math.floor( Math.random() * categoryTopics.informative.length )]
-//         console.log( informativeChoiceTopic )
-//         $( '#chosen-topic' ).html( `Your prompt is: "${informativeChoiceTopic}"` )
-//     } )
-// }
-// informativeChoice();
-
-// opinionChoice = () => {
-//     $( document ).ready( function () {
-//         $( '.modal' ).modal();
-//     } );
-//     $( '#modal1' ).on( 'click', function () {
-//         let opinionChoiceTopic = categoryTopics.opinion[Math.floor( Math.random() * categoryTopics.opinion.length )]
-//         console.log( opinionChoiceTopic )
-//         $( '#chosen-topic' ).html( `Your prompt is: "${opinionChoiceTopic}"` )
-//     } )
-// }
-// opinionChoice();
-
-
-// narrativeChoice = () => {
-//     $( '#modal1' ).on( 'click', function () {
-//         let narrativeChoiceTopic = categoryTopics.narrative[Math.floor( Math.random() * categoryTopics.narrative.length )]
-//         console.log( narrativeChoiceTopic )
-//         $( '#narrative-prompt' ).html( `Your prompt is: "${narrativeChoiceTopic}"` )
-//     } )
-// }
-// narrativeChoice();
-
-
-// $( '#exampleModal' ).on( 'shown.bs.modal', function () {
-//     $( '#myInput' ).trigger( 'focus' )
-// } )
-// 3. Make lists more specific with text structure
 
 
 // TO DO
@@ -106,3 +66,9 @@ $( document ).ready( function () {
     // 2. Design
 
     // 3. Add more topics
+
+    // MAKE PAGES/LINKS
+
+    // 4. Game Page
+
+    // 5. Examples Page
