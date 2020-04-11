@@ -10,7 +10,7 @@ body{
 }
 
 #parallax-white-section{
-    height: 300px;
+    height: 150px;
 
 }
 #books-lighting{
@@ -19,17 +19,21 @@ body{
   background-size: cover; 
 }
 
-#cs-lewis-quote{
-    font-size: 90px;
-    margin-top: 10px;
+#parallax-title{
+        font-size: 86px;
+    margin-left: -58px;
+    margin-top: 50px;
     color:#F76C6C;
+    border-top: 12px solid #24305E;
+    border-bottom: 5px solid #24305E;
+    border-width: medium;
 }
 #lewis-attribute{
-    font-size: 75px;
-margin-left: 415px;
-margin-top: 20px;
-color:#24305E;
-
+font-size: 76px;
+margin-left: 125px;
+margin-top: 135px;
+color: #24305E;
+width: 820px;
 }
 
 #info-writing-section{
@@ -50,9 +54,10 @@ color:black;
 font-size: 16px;
 }
 
-/* p{
-    margin-bottom: 20px;
-} */
+#choice-title{
+    text-align: center;
+    font-size: 80px;
+}
 
 
 .card-titles{
