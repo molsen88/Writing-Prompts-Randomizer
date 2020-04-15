@@ -49,7 +49,7 @@ $( document ).ready( function () {
 scrollDownPage = () => {
     $( '#scroll-down' ).on( 'click', function () {
         scrollBy( {
-            top: 1000,
+            top: 1150,
             left: 0,
             behavior: 'smooth'
         } )
