@@ -79,10 +79,36 @@ font-size: 16px;
     color: white;
 }
 
+#icon-section{
+    margin-top: 60px;
+}
+
+#icons-row{
+    text-align: center;
+    font-size: 65px;
+    color: #24305E;
+    /* margin-right: 15px; */
+}
+
+#editing-column{
+font-size: 40px;
+color: #F76C6C;
+}
+
+.column-descriptions{
+    font-size: 20px;
+}
+
+#choice-title{
+    color:#24305E
+}
+
 
 #button{
     background-color:#F76C6C;
 }
+
+
 #footer-row{
     background-color: #24305E;
     height: 200px;
