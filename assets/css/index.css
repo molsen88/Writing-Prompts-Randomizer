@@ -35,6 +35,17 @@ body{
     border-bottom: 5px solid #24305E;
     border-width: medium;
 }
+
+#parallax-title-informative{
+    font-size: 96px;
+    text-align: center;
+    margin-top: 50px;
+    color:#F76C6C;
+    border-top: 3px solid #24305E;
+    border-bottom: 3px solid #24305E;
+    
+}
+
 #lewis-attribute{
 font-size: 76px;
 margin-left: 125px;
@@ -120,4 +131,35 @@ color: #F76C6C;
 
 #footer-bottom{
 background-color:#F76C6C
+}
+
+/**INFORMATIVE WRITING SECTION **/
+
+#wilde-attribute{
+font-size: 58px;
+margin-left: 105px;
+margin-top: 90px;
+color: #24305E;
+width: 820px;
+}
+
+#text-structure-heading{
+    font-size: 90px;
+    text-align: center;
+    color:#F76C6C;
+}
+
+#text-structure-define{
+    font-size: 24px;
+    margin: 0px 170px 0px 170px;
+    padding: 30px;
+}
+
+/**OPINION WRITING SECTION **/
+#slicer-attribute{
+font-size: 58px;
+margin-left: 105px;
+margin-top: 90px;
+color: #24305E;
+width: 820px;
 }
