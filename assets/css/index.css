@@ -155,6 +155,22 @@ width: 820px;
     padding: 30px;
 }
 
+.accordion{
+    background-color: #24305E;
+    color: white;
+    margin: 0px 0px 0px 130px;
+    padding: 18px;
+    width: 80%;
+    font-family:  'Nunito', sans-serif;
+    color:#F76C6C;
+}
+
+.panel{
+    width: 80%;
+    margin-left: 130px;
+    /* display: none; */
+}
+
 /**OPINION WRITING SECTION **/
 #slicer-attribute{
 font-size: 58px;
