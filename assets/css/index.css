@@ -158,13 +158,18 @@ width: 820px;
     text-align: center;
     color: #24305E;
 }
-.text-structure-modal-display{
-    font-size: 18px;
+
+#text-structure-modal-title{
+    text-decoration: underline;
 }
 
 #learn-more-button{
     background-color:#F76C6C;
    border-radius: 25px;  
+}
+
+.modal-subtopics{
+    font-size: 28px;
 }
 
 
