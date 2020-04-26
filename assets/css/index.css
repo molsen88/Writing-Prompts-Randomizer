@@ -117,11 +117,10 @@ color: #F76C6C;
     margin-top: 180px;
 }
 
-
-#button{
+#topic-button{
     background-color:#F76C6C;
+    border-radius: 25px;
 }
-
 
 #footer-row{
     background-color: #24305E;
