@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <title>Writing Prompt Randomizer</title>
     </head>
 
@@ -18,7 +19,7 @@
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo">Writing Prompt Randomizer</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li id="info-writing-section"><a href="informativeWriting.html">Informative Writing</a></li>
+                    <li id="info-writing-section"><a href="informativePage.html">Informative Writing</a></li>
                     <li id="opinion-writing-section"><a href="opinionPage.html">Opinion Writing</a></li>
                     <li id="narrative-writing-section"><a href="narrativePage.html">Narrative Writing</a></li>
                 </ul>
@@ -45,52 +46,43 @@
             <div>
                 <p id="text-structure-define">
                     When writing an informative essay, it is important to remember text structure. There are five
-                    different text structures when writing an informative essay: Description, Compare and
-                    Contrast, Sequence, Problem and Solution, and Cause and Effect.
+                    different text structures when writing an informative essay:
                 </p>
-
-                <button class="accordion">Description</button>
-                <div class="panel">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                        ipsum unde alias laboriosam enim impedit porro itaque facere aspernatur libero fugit,
-                        nam sapiente, excepturi accusantium dolore esse ducimus qui pariatur?</p>
-                </div>
-                <button class="accordion">Compare and Contrast</button>
-                <div class="panel">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                        ipsum unde alias laboriosam enim impedit porro itaque facere aspernatur libero fugit,
-                        nam sapiente, excepturi accusantium dolore esse ducimus qui pariatur?</p>
-                </div>
-                <button class="accordion">Sequence</button>
-                <div class="panel">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                        ipsum unde alias laboriosam enim impedit porro itaque facere aspernatur libero fugit,
-                        nam sapiente, excepturi accusantium dolore esse ducimus qui pariatur?</p>
-                </div>
-                <button class="accordion">Cause and Effect</button>
-                <div class="panel">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                        ipsum unde alias laboriosam enim impedit porro itaque facere aspernatur libero fugit,
-                        nam sapiente, excepturi accusantium dolore esse ducimus qui pariatur?</p>
-                </div>
-                <button class="accordion">Problem and Solution</button>
-                <div class="panel">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                        ipsum unde alias laboriosam enim impedit porro itaque facere aspernatur libero fugit,
-                        nam sapiente, excepturi accusantium dolore esse ducimus qui pariatur?</p>
-                </div>
-
-
-
-                <!-- <h2 class="text-structure-list">
+                <h2 class="text-structure-list">
                     <ul class="list-categories">
                         <li>Description</li>
+                        <!-- Modal Trigger -->
+                        <a class="waves-effect waves-light btn modal-trigger" id="description-button"
+                            href="#modal2">Learn more!</a>
+
+                        <!-- Modal Structure -->
+                        <div id="modal2" class="modal">
+                            <div class="modal-content">
+                                <h4>Description Text Structure</h4>
+                                <p id=description-text-display>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                    Dolor dolore libero provident quae sint, inventore quisquam culpa facilis
+                                    perspiciatis qui autem. Veniam pariatur rerum ipsam nobis, beatae perferendis nam
+                                    repudiandae.
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi placeat officia
+                                    unde. Odit accusantium explicabo error nulla molestias aliquid vel voluptates
+                                    voluptate, ad voluptas, officia eveniet! Eligendi alias quos possimus!
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat tempora atque
+                                    consequatur quo, sit voluptatibus magni amet distinctio expedita ut possimus
+                                    temporibus quidem ipsa molestias omnis cumque, quis facere reprehenderit.
+
+                                </p>
+
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                            </div>
+                        </div>
                         <li>Compare and Contrast</li>
                         <li>Sequence</li>
                         <li>Cause and Effect</li>
                         <li>Problem and Solution</li>
                     </ul>
-                </h2> -->
+                </h2>
             </div>
         </div>
         <script src="assets/javascript/index.js"></script>

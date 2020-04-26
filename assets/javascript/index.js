@@ -59,37 +59,13 @@ scrollDownPage();
 
 // InformativePage accordion
 
-accordion = () => {
-    let display = $( '.panel' );
-    display.hide();
-
-    let accordion = $( '.accordion' );
-    console.log( accordion );
-
-    for ( i = 0; i < accordion.length; i++ ) {
-        console.log( accordion[i] )
-        // let userClick = accordion[i];
-        // console.log( userClick )
-
-    }
-
+descriptionStructureModal = () => {
+    $( '#description-text-display' ).html();
+    $( document ).ready( function () {
+        descriptionStructureModal();
+        $( '.modal' ).modal();
+    } );
 }
-
-
-// let accordion = $( ".accordion" ).on( 'click', function () {
-
-//     for ( i = 0; i < accordion.length; i++ ) {
-//         // let accordionGroup = accordion[i];
-//         // console.log( accordionGroup )
-//         display.show( accordion[i] );
-
-//     }
-//     console.log( accordion )
-// } );
-
-
-accordion();
-
 
 
 
