@@ -91,6 +91,10 @@ causeEffectStructureModal = () => {
     } );
 }
 
+// let textStructureInfo = {
+//     title: ["description", "sequence", "compare and contrast"]
+// }
+
 problemStructureModal = () => {
     $( '#cause-text-display' ).html();
     $( document ).ready( function () {
@@ -99,16 +103,15 @@ problemStructureModal = () => {
     } );
 }
 
+
+
 // TO DO
 
     // 1. Method for getting a topic instead of 3 different functions
 
-    // 2. Design
+    // 2. Text Structure Framework for all
 
-    // 3. Add more topics
+    // 3. Game Page
 
-    // MAKE PAGES/LINKS
+    // 4. Simplify Code in js file
 
-    // 4. Game Page
-
-    // 5. Examples Page
