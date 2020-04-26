@@ -67,7 +67,37 @@ descriptionStructureModal = () => {
     } );
 }
 
+compareStructureModal = () => {
+    $( '#compare-text-display' ).html();
+    $( document ).ready( function () {
+        compareStructureModal();
+        $( '.modal' ).modal();
+    } );
+}
 
+sequenceStructureModal = () => {
+    $( '#sequence-text-display' ).html();
+    $( document ).ready( function () {
+        sequenceStructureModal();
+        $( '.modal' ).modal();
+    } );
+}
+
+causeEffectStructureModal = () => {
+    $( '#cause-text-display' ).html();
+    $( document ).ready( function () {
+        causeEffectStructureModal();
+        $( '.modal' ).modal();
+    } );
+}
+
+problemStructureModal = () => {
+    $( '#cause-text-display' ).html();
+    $( document ).ready( function () {
+        problemStructureModal();
+        $( '.modal' ).modal();
+    } );
+}
 
 // TO DO
 

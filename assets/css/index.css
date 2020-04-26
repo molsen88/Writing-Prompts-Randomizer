@@ -159,15 +159,21 @@ width: 820px;
     text-align: center;
     color: #24305E;
 }
+.text-structure-modal-display{
+    font-size: 18px;
+}
 
 #description-button{
     background-color:#F76C6C;
-   border-radius: 25px;
+   border-radius: 25px;  
 }
 
-#description-text-display{
-    font-size: 18px;
+#compare-button{
+    background-color:#F76C6C;
+   border-radius: 25px; 
 }
+
+
 
 /**OPINION WRITING SECTION **/
 #slicer-attribute{
