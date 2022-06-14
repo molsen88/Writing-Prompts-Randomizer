@@ -66,6 +66,7 @@ scrollDownPage = () => {
         } )
     } )
 }
+
 scrollDownPage();
 
 // InformativePage accordion

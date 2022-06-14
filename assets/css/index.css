@@ -29,12 +29,21 @@ body{
   background-size: cover; 
 }
 
-#parallax-title{
-        font-size: 86px;
-    margin-left: -58px;
+.header{
+    font-size: 96px;
+    text-align: center;
     margin-top: 50px;
     color:#F76C6C;
-    border-top: 12px solid #24305E;
+    border-top: 3px solid #24305E;
+    border-bottom: 3px solid #24305E;
+}
+
+/* #parallax-title{
+    font-size: 86px;
+    margin-left: -58px;
+    margin-top: 20px;
+    color:#F76C6C;
+    border-top: 8px solid #24305E;
     border-bottom: 5px solid #24305E;
     border-width: medium;
 }
@@ -47,7 +56,7 @@ body{
     border-top: 3px solid #24305E;
     border-bottom: 3px solid #24305E;
     
-}
+} */
 
 #lewis-attribute{
 font-size: 76px;
@@ -179,19 +188,32 @@ width: 820px;
 }
 
 #learn-more-button{
-    background-color:#F76C6C;
-   border-radius: 25px;  
+ background-color:#F76C6C;
+    border-radius: 25px;  
 }
 
 .modal-subtopics{
     font-size: 28px;
 }
 
+/* OPINION WRITING SECTION */
+
+
 
 
 
 
 /**OPINION WRITING SECTION **/
+
+.modal{
+text-align: left;
+}
+
+.list-items{
+    font-size: 32px;
+    margin-left: 20px;
+}
+
 #slicer-attribute{
 font-size: 58px;
 margin-left: 105px;
