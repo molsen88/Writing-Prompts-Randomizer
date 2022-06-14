@@ -40,7 +40,6 @@
             <p id='lewis-attribute'>"You can make anything by writing."-C.S. Lewis</p>
         </div>
 
-
         <!--  Icons Section  -->
 
         <div class="row" id="icon-section">
@@ -90,18 +89,20 @@
                         <p>Click the button below to generate a prompt.</p>
                     </div>
                     <div class="card-action">
-                        <div>
+                        <div class="button-section">
                             <!-- Modal Trigger -->
                             <a class="waves-effect waves-light btn modal-trigger" id="topic-button"
-                                href="#modal1">Informative
+                                href="#modal1" onclick=informativeChoice()>Informative
                                 Topics</a>
 
                             <!-- Modal Structure -->
                             <div id="modal1" class="modal">
-                                <div class="modal-content">
-                                    <h4>Your prompt:</h4>
-                                    <div id='show-topic'>
-                                        <div class='display-space' id='informative-topic'></div>
+                               <div class="modal-content">
+                                    <h3 class="random-prompt-title">Your prompt:</h3>
+                                    <div id='informative-topic-space'>
+                                        <div class='display-prompt-space' id='informative-topic-space'>
+                                            <h4 class="prompt-choice" id="informative-topic"></h4>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
@@ -122,18 +123,20 @@
                         <p>Click the button below to generate a prompt.</p>
                     </div>
                     <div class="card-action">
-                        <div>
+                        <div class="button-section">
                             <!-- Modal Trigger -->
-                            <a class="waves-effect waves-light btn modal-trigger" id="topic-button"
+                            <a class="waves-effect waves-light btn modal-trigger" id="topic-button" onclick=opinionChoice()
                                 href="#modal2">Opinion
                                 Topics</a>
 
                             <!-- Modal Structure -->
                             <div id="modal2" class="modal">
                                 <div class="modal-content">
-                                    <h4>Your prompt:</h4>
+                                    <h3 class="random-prompt-title">Your prompt:</h3>
                                     <div id='opinion-topic-space'>
-                                        <div class='display-space' id='opinion-topic'></div>
+                                        <div class='display-prompt-space' id='opinion-topic-space'>
+                                            <h4 class="prompt-choice" id="opinion-topic"></h4>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
@@ -154,17 +157,19 @@
                         <p>Click the button below to generate a prompt.</p>
                     </div>
                     <div class="card-action">
-                        <div>
+                        <div class="button-section">
                             <!-- Modal Trigger -->
                             <a class="waves-effect waves-light btn modal-trigger" id="topic-button"
-                                href="#modal3">Narative
+                                href="#modal3" onclick=narrativeChoice()>Narative
                                 Topics</a>
                             <!-- Modal Structure -->
                             <div id="modal3" class="modal">
                                 <div class="modal-content">
-                                    <h4>Your prompt:</h4>
+                                    <h3 class="random-prompt-title">Your prompt:</h3>
                                     <div id='narrative-topic-space'>
-                                        <div class='display-space' id='narrative-topic'></div>
+                                        <div class='display-prompt-space' id='narrative-topic-space'>
+                                            <h4 class="prompt-choice" id="narrative-topic"></h4>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
@@ -182,15 +187,15 @@
                     <div class="row">
                         <div class="col l6 s12">
                             <h5 class="white-text">Writing Prompt</h5>
-                            <p class="grey-text text-lighten-4">Michael Olsen
+                            <p class="grey-text text-lighten-4">lorem
                             </p>
                         </div>
                         <div class="col l4 offset-l2 s12">
                             <h5 class="white-text">Links</h5>
                             <ul>
-                                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                                <li><a class="grey-text text-lighten-3" href="#!">Informative Writing</a></li>
+                                <li><a class="grey-text text-lighten-3" href="#!">Opinion Writing</a></li>
+                                <li><a class="grey-text text-lighten-3" href="#!">Narrative Writing</a></li>
                                 <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
                             </ul>
                         </div>
@@ -198,8 +203,8 @@
                 </div>
                 <div class="footer-copyright" id="footer-bottom">
                     <div class="container">
-                        © 2020 Copyright Text
-                        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                        © 2022 Writing Prompt Copyright
+                        <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
                     </div>
                 </div>
             </footer>
