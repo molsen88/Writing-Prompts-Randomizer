@@ -91,6 +91,8 @@
                             </div>
                             <div class="modal-footer">
                                 <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                               
+
                             </div>
                         </div>
 
@@ -270,6 +272,64 @@
                 </h2>
             </div>
         </div>
+
+        
+
+        <div class="row" id="icon-section">
+            <div class="col s3" id="icons-row">
+                <i class="fas fa-user-edit"></i>
+                <div id="editing-column">Choose Text Structure</div>
+                <div>
+                    <p class="column-descriptions">Test your knowledge of text structure by reading a topic and choosing the correct text structure to write it.</p>
+                </div>
+            </div>
+             <div class="col s3" id="icons-row">
+                <i class="fas fa-user-edit"></i>
+                <div id="editing-column">Text Structure Passages</div>
+                <div>
+                    <p class="column-descriptions">Test your knowledge of text structure by reading a sentence or passage. Then you will choose which text structure it is.</p>
+                </div>
+            </div>
+            <div class="col s3" id="icons-row">
+                <i class="fas fa-user-edit"></i>
+                <div id="editing-column">Random Topics</div>
+                <div>
+                    <p class="column-descriptions">Test your knowledge of text structure by reading a sentence or passage. Then you will choose which text structure it is.</p>
+                </div>
+                <div class="button-section">
+                            <!-- Modal Trigger -->
+                            <a class="waves-effect waves-light btn modal-trigger" id="topic-button"
+                                href="#modal1" onclick=informativeChoice()>Informative
+                                Topics</a>
+
+                            <!-- Modal Structure -->
+                            <div id="modal1" class="modal">
+                               <div class="modal-content">
+                                    <h3 class="random-prompt-title">Your prompt:</h3>
+                                    <div id='informative-topic-space'>
+                                        <div class='display-prompt-space' id='informative-topic-space'>
+                                            <h4 class="prompt-choice" id="informative-topic"></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <a class="waves-effect waves-light btn modal-trigger" id="topic-button"
+                                href="#modal1" onclick=informativeChoice()>Choose another</a>
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+            </div>
+            <div class="col s3" id="icons-row">
+                <i class="fas fa-user-edit"></i>
+                <div id="editing-column">Examples</div>
+                <div>
+                    <p class="column-descriptions">Test your knowledge of text structure by reading a sentence or passage. Then you will choose which text structure it is.</p>
+                </div>
+            </div>
+        </div>
+        
         <div class="row">
             <footer class="page-footer" id='footer-row'>
                 <div class="container">
